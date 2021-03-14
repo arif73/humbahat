@@ -21,6 +21,7 @@
                         :slides-count="productCollections.length"
                         v-if="count != 0">
 
+
                         <slide
                             :key="index"
                             :slot="`slide-${index}`"

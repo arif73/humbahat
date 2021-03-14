@@ -1,0 +1,272 @@
+
+
+@media (max-width: 1367px){
+	.header-top-desc{
+		width: 68%;
+	}
+	.hambahat-process{
+		margin-left: 4%;
+	}
+	.cart-products .btn{
+		font-size: 14px;
+	}
+	.product-details{
+		top: 57%;
+		height: 50%;
+	}
+	.product-single:hover .product-details {
+		top: 51%;
+	}
+}
+@media (max-width: 992px){
+	.header-top-desc{
+		width: 100%;
+		padding-left: 0px;
+		border-radius: 0px 0px 22px 22px;
+	}
+	.header-top-area ul{
+		text-align: center;
+	}
+	.header-top-area ul li{
+		float: inherit;
+	}
+	.header-middle-area{
+		padding-bottom: 25px;
+	}
+	.header-logo{
+		padding-top: 10px;
+		width: 100%;
+		position: relative;
+	}
+	.main-menu-area{
+		top: 50%;
+		left: 0;
+		background: #fffffff0;
+	}
+	.main-menu-area ul{
+		display: none;
+		padding: 20px;
+	}
+	.main-menu-area ul li a {
+		display: block;
+		border-bottom: 1px solid #2B2E3382;
+	}
+	.main-menu-area ul li:hover a{
+		border-bottom: 1px solid #AA1F2C;
+	}
+	.menu-click {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 33%;
+	}
+	.header-search{
+		width: 100%;
+	}
+	.header-search ul li input{
+		width: 84%;
+	}
+	.bredcrumb-area{
+		padding-top: 35px;
+	}
+	.banner-single{
+		height: auto;
+	}
+	.hambahat-process{
+		margin-left: 0;
+		left: 0;
+	}
+	.hambahatmodal.modal-xl{
+		max-width: 100% !important;
+	}
+	.about-us-area p{
+		width: 100%;
+	}
+	.footer-single{
+		padding: 18px 0px;
+	}
+	.footer-single h4 {
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px){
+	.header-search ul li input{
+		width: 80%;
+	}
+	.checkout-forms{
+		margin-bottom: 30px;
+		height: auto;
+	}
+	.banner-area{
+		margin-bottom: 58%;
+	}
+	.hambahat-process-content h2{
+		left: 30%;
+	}
+	.hambahat-process-content ul{
+		display: block;
+	}
+	.hambahat-process-content ul li{
+		border-right: none;
+		border-bottom: 1px solid #ddd;
+	}
+	.hambahat-process-content ul li:last-child{
+		border-bottom: none;
+	}
+
+	.product-details {
+		top: 77%;
+		height: 35%;
+	}
+
+
+	.each-event{
+		width: 100%
+	}
+	.each-event:nth-child(2n){
+		margin-left: 0;
+	}
+	.each-event:nth-child(2n+1){
+		margin-left: 0;
+	}
+	.block::before{
+		display: none;
+	}
+	.product-details{
+		top: 77%;
+	}
+	.product-single:hover .product-details{
+		top: 71%;
+	}
+	.aboutfresh-img img{
+		width: 100%;
+	}
+	.aboutfresh-img img.fresh2{
+		display: none;
+	}
+	.about-us-area .page-titles{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+
+	.cart-products table#cart tbody td .form-control {
+		width: 20%;
+		display: inline !important;
+	}
+	.cart-products table tbody tr{
+		border-bottom: 40px solid;
+    	border-color: transparent;
+	}
+	.cart-products .actions .btn {
+		width: 36%;
+		display: inline-block;
+	}
+	.cart-products tr .actions{
+		border: none !important
+	}
+	.cart-products .actions .btn-info {
+		float: left;
+	}
+
+	.cart-products .actions .btn-danger {
+		float: right;
+	}
+
+	.cart-products table#cart thead {
+		display: none;
+	}
+
+	.cart-products table#cart tbody td {
+		display: block;
+		padding: .6rem;
+		min-width: 320px;
+		text-align: left !important;
+	}
+
+	.cart-products table#cart tbody tr td:first-child {
+		background: #333;
+		color: #fff;
+	}
+
+
+	.cart-products table#cart tfoot td {
+		display: block;
+	}
+
+	table#cart tfoot td .btn {
+		display: block;
+	}
+
+
+}
+@media (max-width: 576px){
+	.header-top-area ul li a {
+		font-size: 15px;
+		padding: 15px 7px;
+	}
+	.hambahat-process{
+		padding: 30px;
+		top: 73%
+	}
+	.hambahat-process-content button{
+		left: 37%;
+	}
+
+}
+@media (max-width: 420px){
+	.header-search ul li input{
+		width: 74%;
+	}
+	.header-search ul li:first-child button{
+		background: #F8F8F8;
+		padding: 7px 8px;
+	}
+	.banner-single h1{
+		font-size: 55px;
+	}
+	.hambahat-process{
+		position: inherit;
+	}
+	.banner-area .process.container{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.hambahat-process-content{
+		padding: 50px 0px;
+	}
+	.banner-area {
+		margin-bottom: 30%;
+	}
+	.hambahat-process-content h2 {
+		left: 20%;
+		top: -26px;
+		font-size: 23px;
+	}
+	.hambahat-process-content button {
+		left: 35%;
+	}
+	.aboutfresh-img img{
+		height: auto;
+	}
+	.about-img img{
+		width: 100%;
+	}
+}
+@media (max-width: 380px){
+	.header-search ul li input{
+		width: 66%;
+	}
+	.product-details {
+		top: 74%;
+	}
+}
+@media (max-width: 375px){
+	.banner-area {
+		margin-bottom: 126%;
+	}
+	.product-single:hover .product-details {
+		top: 67%;
+	}
+}
